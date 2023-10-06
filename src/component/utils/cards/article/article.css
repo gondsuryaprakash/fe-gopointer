@@ -1,0 +1,119 @@
+.articleContainer {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    max-width: 680px;
+  
+    width: 100%;
+    height: 100%;
+
+}
+.author-name {
+    padding: 10px 10px 0px 10px;
+    font-weight: 200;
+}
+
+.post-date {
+    padding: 15px 10px 0px 10px;
+    font-size: 10px;
+    color: grey;
+}
+.post-date span {
+    text-align: center;
+}
+
+.post-header {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.author-profile {
+   margin-left: 20px;
+   padding: 10px 10px 0px 10px;
+}
+
+.author-profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+.imageContainer {
+    width: 30%;
+ 
+}
+.post-heading {
+   margin-left: 70px;
+}
+
+.post-body p {
+    
+    text-align: left;
+    line-height: 24px;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+ 
+}
+
+.post-heading h2 {
+    text-align: left;
+    letter-spacing: 0;
+    -webkit-line-clamp: 3;
+    max-height:72px;
+    line-height:24px;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-box-orient:vertical;
+    display: -webkit-box;
+    text-overflow:ellipsis;
+    color: #242424;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    fill: inherit;
+
+
+}
+
+.post-body {
+  margin-left: 50px;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+.articleHeader {
+        display: grid;
+}
+
+.profileContainer {
+    width: 100px;
+    height: 100px;
+}
+
+.profileContainer img {
+    width: 100%;
+}
+
+.imageContainer {
+    width: 200px;
+    height: 200px;
+}
+
+.imageContainer img {
+    
+    width: 100%;
+    height: 100%;
+    top: 39px;
+    position: relative;
+    padding: 20px;
+}

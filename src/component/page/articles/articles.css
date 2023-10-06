@@ -1,0 +1,21 @@
+.articleContainer {
+    max-width: 680px;
+    margin: 0 24px;
+    min-width: 0;
+    width: 100%;
+}
+
+.articleHeader {
+    margin-top: 1.19em;
+    letter-spacing: -0.011em;
+    line-height: 52px;
+    font-size: 42;
+    margin-bottom: -0.27em;
+    font-weight: 700;
+    color: #242424;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.articleContent {
+    margin-top: 20px;
+}
